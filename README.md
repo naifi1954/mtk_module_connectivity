@@ -1,3 +1,4 @@
+```
 #
 # Copyright (C) 2016 MediaTek Inc.
 #
@@ -9,7 +10,7 @@
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # See http://www.gnu.org/licenses/gpl-2.0.html for more details.
-
+```
 
 # Mediatek external kernel modules
 
