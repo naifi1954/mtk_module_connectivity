@@ -10,6 +10,8 @@
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # See http://www.gnu.org/licenses/gpl-2.0.html for more details.
+#
+#
 ```
 
 # Mediatek external kernel modules
@@ -38,3 +40,8 @@ CONFIG_DRV_BUILD_IN=y
 ```
 # Bootloop issue
 Bootloops can be caused by the drivers in `/vendor/lib/modules/*.ko` conflicting with drivers inline. Removing `/vendor/lib/modules/` can solve it.
+
+Modified by @rufnxprjkt
+Reference:
+- [rsuntk](https://github.com/rsuntk-oss/mtk_connectivity_module.git)
+- [erfanoabdi](https://github.com/erfanoabdi/android_kernel_gigaset_mt6768/commit/3c0fdd9a52d53db8502aa71a550b5cc222593143)
